@@ -1,0 +1,65 @@
+/* CSS.css */
+/* Header */
+header {
+    background-color: #D86A4D;
+    color: black;
+    padding: 20px;
+    text-align: left;
+    border-radius: 8px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5FB7D1;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Body */
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    border-radius: 15px; /* Rounded corners for the navbar */
+    overflow: hidden;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.language-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+/* btn is the language toggle */
+.lang-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.lang-btn:hover {
+    background-color: #555;
+}
+/* footer part */
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;  /* Adjust height as needed */
+}
+
+.footer-content p {
+    text-align: center; /* Center the text inside the p tag */
+}

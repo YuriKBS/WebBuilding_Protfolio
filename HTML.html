@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> <!-- Default to Brazilian Portuguese -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meu deus Yuri, que portfólio grande! S2 - Desenvolvedor Web">
+    <title>Meu deus Yuri, que portfólio grande! S2</title>
+    <link rel="stylesheet" href="CSS.css">
+    <script src="" defer></script>
+</head>
+<body>
+    <!-- Language Toggle -->
+    <div class="language-toggle">
+        <button onclick="setLanguage('pt-BR')" class="lang-btn" id="pt-br-btn">PT</button>
+        <button onclick="setLanguage('en')" class="lang-btn" id="en-btn">EN</button>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home" data-lang="home">Nossa Casa para você</a></li>
+                <li><a href="#about" data-lang="about">Você quer saber sobre mim?</a></li>
+                <li><a href="#portfolio" data-lang="portfolio">Meus bebês criativos</a></li>
+                <li><a href="#services" data-lang="services">O quê eu posso fazer para você</a></li>
+                <li><a href="#contact" data-lang="contact">Fala comido, lindo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero">
+            <h1 data-lang="welcome">Seja bem-vindo meu rei. Minha nobre fachada para o seu deleite</h1>
+            <p data-lang="description">Baterista | Compositor | Arranjador</p>
+            <a href="#portfolio" class="cta-btn" data-lang="seeWork">Veja meu trabalho</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="content">
+            <h2 data-lang="aboutMe">O quê posso falar de mim</h2>
+            <p data-lang="bio">Olá, sou um desenvolvedor web apaixonado por criar websites responsivos e fáceis de usar.</p>
+            <p data-lang="hobbies">No meu tempo livre, gosto de aprender novas tecnologias e explorar o design de sites.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="content">
+            <h2 data-lang="myWork">Meu deus Yuri, que portfólio grande! S2</h2>
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <h3 data-lang="project1Title">Igreja de Batuta</h3>
+                    <p data-lang="project1Desc">Faca de passa não corta.<br>A igreja de batuta trás a todos a paz que buscamos nas nossas vidas. Acompanhe abaixo o vídeo promocional.</p>
+                    <iframe width="600" height="350" 
+                     src="https://youtu.be/7aH2dYPKYwU?si=BC-B_VJPCF98lixB" 
+                     frameborder="0" 
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                     allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="portfolio-item">
+                    <h3 data-lang="project2Title">Voice Over e Trilha em Especial de Halloween</h3>
+                    <p data-lang="project2Desc">Trailer para uma sessão de RPG produzida exclusivamente pelo estúdio.</p>
+                    <iframe width="600" height="350" 
+                     src="https://youtu.be/nugt87RIARY?si=L4ejL00Jn8skAggF" 
+                     frameborder="0" 
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                     allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="portfolio-item">
+                    <h3 data-lang="project3Title">Dublagem de bateria</h3>
+                    <p data-lang="project3Desc">Mesmo com baixo orçamento, grave e filme uma bateria por cima. Não é o preferencial mas com certeza o econômico.</p>
+                    <iframe width="600" height="350" 
+                     src="https://youtu.be/3gvaQwfV23M?si=oxu-FDGbsdqu6Lk9" 
+                     frameborder="0" 
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                     allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="content">
+            <h2 data-lang="servicesTitle">Serviços</h2>
+            <div class="service-item">
+                <h3 data-lang="Performance">Sua linha de Bateria</h3>
+                <p data-lang="PerformanceDesc">Se você quer uma linha de bateria feita com muito amor. Por favor, dívida comigo seus planos e suas referências. Entre em contato para uma consultoria gratuita. Não se preocupe em falar de dinheiro por conta disso, viu?</p>
+            </div>
+            <div class="service-item">
+                <h3 data-lang="Composition">Composição</h3>
+                <p data-lang="CompositionDesc">Gostou do que minhas partituras lhe mostrou? Posso lhe dar uma do jeitinho que sua vó faz bolo. Doce e com amor.</p>
+            </div>
+            <div class="service-item">
+                <h3 data-lang="Arrangement">Arranjo</h3>
+                <p data-lang="ArrangementDesc">Mas se você apenas quer um tempero profissional para exaltar a sua música, também estou aqui para ajuda-lo. Não importa a formação ou gênero. Misturado ou separado todo mundo pode ser feliz!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="content">
+            <h2 data-lang="contactMe">Contato</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name" data-lang="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email" data-lang="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message" data-lang="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit" class="submit-btn" data-lang="sendMessage">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Meu deus Yuri, que portfólio grande! S2 | Criado pelo mesmo, Yuri Karasiak</p>
+            <ul class="social-links">
+                <li><a href="https://www.youtube.com/@yurikarasiak/featured" target="_blank" data-lang="youtube">YouTube</a></li>
+                <li><a href="https://www.linkedin.com/in/yuri-karasiak-376b522b9/" target="_blank" data-lang="linkedin">LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/yurikarasiak/" target="_blank" data-lang="instagram">Instagram</a></li>
+                <li><a href="mailto:your-email@example.com" data-lang="emailLink">Email (Vazio)</a></li>
+                
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
