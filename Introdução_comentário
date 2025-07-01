@@ -1,0 +1,22 @@
+Projeto para a criação de um portfólio online.
+
+Nessa pasta você vai achar dois arquivos com os nomes HTML e CSS para arquivos do mesmo tipo. Foi o que achei mais fácil para mim.
+
+
+
+Tempo gasto no projeto.
+
+Foram dados somente dois dias até o momento, 30/06 e 01/07 de 2025. Dia 30 teve 4 horas dedicadas, dia 1 teve 3.
+
+Método
+
+Comecei pedindo ao ChatGPT um framework para um site portfólio, com a impressão de um arquivo HTML, CSS e Java. 
+Como pode notar, o Java foi deixado de lado por enquanto, nisso foquei em adaptar o HTML com as minhas informações e familiarizar-me com o CSS. De início, foram coisas básicas como fontes, tamanhos e centralizações de textos. 
+No segundo dia, dediquei as três horas em tentar outras customizações, mas no fim cheguei à conclusão de que precisava trabalhar na estruturação do CSS que não estava fazendo sentido para mim mesmo adicionando comentários próprios, escritas próprias e tentativas. 
+No fim, o formato do CSS está 80% como o original de AI e ainda precisa de bastante trabalho para deixar o site com uma cara de site e não de algo feito na década de 1990.
+
+Conclusão
+
+Revisar o material CSS, familiarizar-me com os termos e tentar construir do zero algo que seja familiar para o criador e que possa ser propriamente implementado.
+
+O projeto está inconcluido.
